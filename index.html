@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<title>skillenza</title>
+	  	<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="stylesheet" href="etc/css/bootstrap.min.css">
+	  	<link rel="stylesheet" href="etc/font_awesome/css/font-awesome.min.css">
+	  	<link rel="stylesheet" href="css/index.css">
+	  	<script src="etc/js/jquery.min.js"></script>
+	  	<script src="etc/js/bootstrap.min.js"></script>
+	  	
+	  	<link rel="icon" type="image/x-icon" href="images/s.png">
+	</head>
+	<body>
+		<header style="position: fixed;width: 100%;z-index: 999;top: 0px;">
+			<nav class="navbar navbar-inverse" >
+			  	<div class="container-fluid">
+			    	<div class="navbar-header">
+			      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        		<span class="icon-bar"></span>
+			        		<span class="icon-bar"></span>
+			        		<span class="icon-bar"></span>                        
+			      		</button>
+			      		<a class="navbar-brand" href="#"><img src="images/ss.png" style="padding:0px;width:135px;"/></a>
+			    	</div>
+			    	<div class="collapse navbar-collapse" id="myNavbar">	
+					    <ul class="nav navbar-nav navbar-right">
+					    	<li><a href="#">Activities</a></li>
+						    <li><a href="#">People</a></li>
+						    <li><a href="#">Communities</a></li>
+					        <li>
+					        	<a href="#">
+					        		<i class="fa fa-bell" aria-hidden="true"></i>
+					        	</a>
+					        </li>
+					        <li>
+					        	<a href="#">
+					        		
+					      			<img src="images/user.png" style="height: 30px;"/>
+					        	</a>
+					        </li>
+					    </ul>
+			    	</div>
+			  	</div>
+			</nav>
+		</header>
+		<div class="row" style="height: 100%;margin-top: 60px;">
+			<div class="col-md-3 col-lg-3 col-sm-3 mt20">
+				<div class="row mb20" id="userProfile">
+					<div class="row userUp tac pt20">
+						<!--<span class="glyphicon glyphicon-user" style="top: 59px; font-size: 63px;"></span>-->
+						<img src="images/user.png" class="userImage">	
+					</div>	
+					<div style="background-color: #fff;">
+						<div class="row tac pt40"><h3>Hemanth Kumar</h3></div>
+						<div class="row tac"><p class="c_ash fontI">@1v4owymj</p></div>
+						<div class="row tac mt20 pb30">
+							<table style="width:100%;">
+								<tr>
+									<td>ACTIVITIES<p class="c_blue fwb">1</p></td>
+									<td>FOLLOWING <p class="c_blue fwb">0</p></td>
+									<td>FOLLOWERS <p class="c_blue fwb">0</p></td>
+								</tr>
+							</table>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-5 col-sm-5 col-lg-5 mt20" id="cards">
+			</div>
+			<div class="col-md-2 col-sm-2 col-lg-2"></div>
+			<div class="col-md-2 col-sm-2 col-lg-2 chatBg pt20">
+				<p>Chat</p>
+				<div class="row">
+					<p class="col-md-10 col-sm-10 col-lg-10 pt40 p0 c_ash">You need to have followers to start chatting with them</p>
+				</div>	
+				<div class=""><button class="btn btnBlue">Explore People</button></div>
+			</div>
+		</div>
+		<script src="js/index.js"></script>
+	</body>
+</html>

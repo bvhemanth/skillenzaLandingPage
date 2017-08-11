@@ -1,0 +1,151 @@
+/*common*/
+.row
+{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.tac
+{
+	text-align: center;
+}
+.c_blue
+{
+	color: #1c84c6;
+}
+.c_ash
+{
+	color: #676a6c;
+}
+.fwb
+{
+	font-weight: bold;
+}
+.mt20
+{
+	margin-top: 20px;
+}
+body
+{
+	background-color: #F3F3F4;
+}
+.pt20
+{
+	padding-top: 20px;
+}
+.pb30
+{
+	padding-bottom: 30px;
+}
+.pt40
+{
+	padding-top: 40px;
+}
+.mb20
+{
+	margin-bottom: 20px;
+}
+.mb10
+{
+	margin-bottom: 10px;
+}
+.btnBlue
+{
+	background-color: #1c84c6;
+	color:#fff;
+}
+.p0
+{
+	padding-left: 0px;
+	padding-right: 0px; 
+}
+/* end of common*/
+/*nav bar*/
+.navbar-inverse .navbar-nav>li>a:hover 
+.navbar-inverse .navbar-nav>li>a:focus{
+    color: blue;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+    color:#ddd;
+    box-shadow: 2px 3px 5px #ddd;
+}
+.navbar-brand
+{
+	padding:0px;
+}
+.navbar-collapse .navbar-nav>li>a:hover {
+    color: #1c84c6;
+    cursor: pointer;
+    
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid rgba(27, 24, 24, 0);
+    border-radius: 4px;
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+/*end of nav bar*/
+
+/*user profile*/
+#userProfile
+{
+	min-height: 250px;
+	box-shadow: 4px 5px 12px #ddd;
+}
+.userUp
+{	
+	min-height: 100px;
+	width:100%;
+	height:100%;
+	background:-webkit-linear-gradient(433deg,rgb(204, 25, 75) 0%, rgb(37, 17, 195) 100%);
+	background:-o-linear-gradient(433deg,rgb(204, 25, 75) 0%, rgb(37, 17, 195) 100%);
+	background:-moz-linear-gradient(433deg,rgb(204, 25, 75) 0%, rgb(37, 17, 195) 100%);
+	background:linear-gradient(433deg,rgb(204, 25, 75) 0%, rgb(37, 17, 195) 100%);
+
+}
+.fontI
+{
+	font-style: italic;
+}
+.userImage
+{
+	top: 55px;
+	height: 66px;
+	position: relative;
+}
+/*end of user profile*/
+
+/*userdata*/
+.eachCard
+{
+	min-height: 140px;
+	background-color: #fff;
+	border-radius: 0px;
+	box-shadow: 4px 5px 12px #ddd; 
+}
+.cardTitle
+{
+	font-size: 16px;
+    padding: 14px 15px;
+    font-style: italic;
+    color: #676a6c;
+}
+/*end of user data*/
+
+/*chat*/
+.chatBg
+{
+	background-color: #EBEBED;
+}
