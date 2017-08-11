@@ -14,6 +14,7 @@ function initialize()
 	profileData.push({title:"Complete your profile to be more discoverable on skillenza and build your learning based network", button:"See my profile"});
 	
 	var cards=document.getElementById('cards');
+	$(cards).hide();
 	for(var i=0;i<profileData.length;i++)
 	{
 		console.log();
@@ -32,6 +33,11 @@ function initialize()
 				var button=document.createElement('button');
 				$(button).addClass('btn btnBlue');
 
+				$(button).on('click',function(){
+					$(this).parent().parent().parent().hide('slow');
+					$(this).parent().parent().parent().show('slow');
+				});
+
 				$(button).html(profileData[i].button);
 			
 			$(left).append(button);	
@@ -43,6 +49,8 @@ function initialize()
 
 		$(cards).append(div);
 	}	
+	$(cards).show('slow','linear');
+
 
 }
 
